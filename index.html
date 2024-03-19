@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .rectangle1 {
+            width: 200px;
+            height: 100px;
+            background: #c8b4b4;
+            position: relative;
+        }
+        .rectangle2 {
+            width: 200px;
+            height: 100px;
+            background: #c8b4b4;
+            position: relative;
+        }
+        .rectangle3 {
+            width: 200px;
+            height: 100px;
+            background: #c8b4b4;
+            position: relative;
+        }
+
+         .rectangle1 .ayan1{
+            position: absolute;
+            margin: 0;
+             background-color: black; 
+            border: 1px solid black;
+            width: 50px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%)
+        } 
+         .rectangle2 .ayan2{
+            position: absolute;
+            margin: 0;
+             background-color: black; 
+            border: 1px solid black;
+            width: 50px;
+            top: 50%;
+            left: 0%;
+            transform: translateY(-50% )
+        } 
+         .rectangle3 .ayan3{
+            position: absolute;
+            margin: 0;
+             background-color: black; 
+            border: 1px solid black;
+            /* color: #c8b4b4; */
+            width: 50px;
+            top: 50%;
+            right: 0%;
+            transform: translateY(-50% )
+        }  
+    </style>
+</head>
+
+<body style="display: flex; gap: 10px;">
+    <div class="rectangle1">
+        <p class="ayan1">Ayan</p>
+    </div>
+    <div class="rectangle2">
+        <p class="ayan2">hello</p>
+    </div>
+    <div class="rectangle3">
+        <p class="ayan3">Ayan</p>
+    </div>
+</body>
+
+</html>
